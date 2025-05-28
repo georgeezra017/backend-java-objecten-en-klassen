@@ -3,10 +3,14 @@ public class main {
         ApplePieRecipe applePieRecipe = new ApplePieRecipe();
         FilmRecipe filmRecipe = new FilmRecipe();
         //Film film = new Film("Pirates", "Johny Depp", "12-03-2011", "action");
+        CompanyRecipe companyRecipe = new CompanyRecipe();
 
         applePieRecipe.printAllIngredients();
         applePieRecipe.printSteps();
         filmRecipe.printAllFilms();
+
+        companyRecipe.printAllCompanyInfos();
+
         System.out.println();
 
 
